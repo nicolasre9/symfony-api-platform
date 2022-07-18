@@ -71,6 +71,7 @@ abstract class BaseRepository
         return $this->connection->executeQuery($query, $params)->fetchAll();
     }
 
+    
     /**
      * @throws \Doctrine\DBAL\DBALException
      */ 
