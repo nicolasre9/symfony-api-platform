@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 18 01:07:16 2022
+# Make data base, printed on Mon Jul 18 02:39:47 2022
 
 # Variables
 
@@ -95,7 +95,7 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/nicolas/.oh-my-zsh
 # environment
-VSCODE_PID = 17274
+VSCODE_PID = 133167
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -209,7 +209,7 @@ SNAP_CONTEXT = ntbE9TBBL4w9KBn2J1YfOrJd4vyzbushQcNZ1KQ4TtgKSAbF5FtR
 # environment
 MANAGERPID = 1865
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 17197
+GIO_LAUNCHED_DESKTOP_FILE_PID = 133127
 # environment
 PAGER = less
 # environment
@@ -269,9 +269,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2054, inode 1057321): 7 files, no impossibilities.
+# . (device 2054, inode 1057321): 24 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 24 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -399,12 +399,12 @@ composer-install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 215 B / avg = 8 B
-# current buf: size = 8162 B / used = 215 B / count = 24 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 40 / storage = 353 B / avg = 8 B
+# current buf: size = 8162 B / used = 353 B / count = 40 / avg = 8 B
 
-# strcache performance: lookups = 40 / hit rate = 40%
+# strcache performance: lookups = 57 / hit rate = 29%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=0/40=0%
-# Finished Make data base on Mon Jul 18 01:07:16 2022
+# Load=40/8192=0%, Rehash=0, Collisions=0/57=0%
+# Finished Make data base on Mon Jul 18 02:39:47 2022
 
  
