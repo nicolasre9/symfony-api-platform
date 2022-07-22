@@ -75,7 +75,7 @@ abstract class BaseRepository
     /**
      * @throws \Doctrine\DBAL\DBALException
      */ 
-    protected function executeQuery(string $query, array $params = []): void
+    protected function executeQuery(string $query, array $params = []): array
     {
         return $this->connection->executeQuery($query, $params)->fetchAll();
     }

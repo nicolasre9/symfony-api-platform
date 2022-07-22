@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 18 01:07:16 2022
+# Make data base, printed on Fri Jul 22 15:47:03 2022
 
 # Variables
 
@@ -35,7 +35,7 @@ QT_ACCESSIBILITY = 1
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/101/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/102/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -55,7 +55,7 @@ OLDPWD = /home/nicolas
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/nicolas/.config/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+VSCODE_CODE_CACHE_PATH = /home/nicolas/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
 LANG = C
 # environment
@@ -71,7 +71,7 @@ MAKEFLAGS = pqrR
 # makefile
 CURDIR := /home/nicolas/www/symfony-api-platform/api
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -95,7 +95,7 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/nicolas/.oh-my-zsh
 # environment
-VSCODE_PID = 17274
+VSCODE_PID = 156294
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -149,11 +149,11 @@ LANGUAGE = es_AR:es
 # environment
 SNAP_USER_COMMON = /home/nicolas/snap/code/common
 # environment
-SNAP = /snap/code/101
+SNAP = /snap/code/102
 # environment
 INVOCATION_ID = 78e68546041844a583f192f13e923880
 # environment
-SNAP_REVISION = 101
+SNAP_REVISION = 102
 # environment
 SNAP_REAL_HOME = /home/nicolas
 # environment
@@ -203,17 +203,17 @@ MAKE_VERSION := 4.3
 # environment
 DISABLE_WAYLAND = 1
 # environment
-SNAP_DATA = /var/snap/code/101
+SNAP_DATA = /var/snap/code/102
 # environment
 SNAP_CONTEXT = ntbE9TBBL4w9KBn2J1YfOrJd4vyzbushQcNZ1KQ4TtgKSAbF5FtR
 # environment
 MANAGERPID = 1865
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 17197
+GIO_LAUNCHED_DESKTOP_FILE_PID = 156245
 # environment
 PAGER = less
 # environment
-_ = /snap/code/101/usr/share/code/code
+_ = /snap/code/102/usr/share/code/code
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -231,17 +231,17 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-0ed59228-1.69.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-0ed59228-1.69.2-main.sock
 # environment
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/101/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/102/usr/share/glib-2.0/schemas
 # default
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = b06ae3b2
+SNAP_VERSION = 3b889b09
 # default
 SUFFIXES := 
 # environment
@@ -253,7 +253,7 @@ SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-SNAP_USER_DATA = /home/nicolas/snap/code/101
+SNAP_USER_DATA = /home/nicolas/snap/code/102
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -269,9 +269,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2054, inode 1057321): 7 files, no impossibilities.
+# . (device 2054, inode 1185963): 16 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -290,7 +290,7 @@ migrations:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-17 23:49:42.982707558
+#  Last modified 2022-07-22 15:46:51.613990255
 #  File has been updated.
 #  Successfully updated.
 
@@ -399,12 +399,12 @@ composer-install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 215 B / avg = 8 B
-# current buf: size = 8162 B / used = 215 B / count = 24 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 33 / storage = 294 B / avg = 8 B
+# current buf: size = 8162 B / used = 294 B / count = 33 / avg = 8 B
 
-# strcache performance: lookups = 40 / hit rate = 40%
+# strcache performance: lookups = 49 / hit rate = 32%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=0/40=0%
-# Finished Make data base on Mon Jul 18 01:07:16 2022
+# Load=33/8192=0%, Rehash=0, Collisions=0/49=0%
+# Finished Make data base on Fri Jul 22 15:47:03 2022
 
  
