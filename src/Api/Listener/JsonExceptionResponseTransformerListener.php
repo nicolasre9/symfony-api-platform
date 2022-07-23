@@ -5,17 +5,18 @@
     //use Exception;
     use Symfony\Component\HttpKernel\Event\ExceptionEvent;
     use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
+    use Symfony\Component\HttpFoundation\JsonResponse;
 
     class JsonExceptionResponseTransformerListener
     {
-        public function onKernelException(Exception $event): void
+        public function onKernelException(ExceptionEvent $event): void
         {
             $exception = $event->getThrowable();
 
             if  ($exception instanceof HttpExceptionInterface) {
                 $data = [
                     'class' => get_class($exception),
-                    'code' => $exception->getSatusCode(),
+                    'code' => $exception->getStatusCode(),
                     'message' => $exception->getMessage(),
                 ];
 
