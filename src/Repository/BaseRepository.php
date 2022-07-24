@@ -2,10 +2,24 @@
 
 namespace App\Repository;
 
+/*
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\Persistence\ObjectManager;
 use Doctrine\Persistence\ObjectRepository;
 use Doctrine\DBAL\Connection;
+*/
+use Doctrine\DBAL\Exception;
+use Doctrine\Persistence\ManagerRegistry;
+use Doctrine\DBAL\Connection;
+use Doctrine\ORM\EntityManager;
+use Doctrine\ORM\OptimisticLockException;
+use Doctrine\ORM\ORMException;
+use Doctrine\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectRepository;
+use Doctrine\Persistence\Mapping\MappingException;
+
+
+
 
 abstract class BaseRepository
 {

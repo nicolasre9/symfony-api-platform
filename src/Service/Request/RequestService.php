@@ -42,7 +42,7 @@ class RequestService
 
     public static function arrayFlatten(array $array): array
     {
-        return = [];
+        $return = [];
 
         foreach ($array as $key => $value) {
             if (is_array($value)) {

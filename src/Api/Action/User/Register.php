@@ -3,6 +3,9 @@
 namespace App\Api\Action\User;
 
 use App\Service\User\UserRegisterService;
+use Symfony\Component\HttpFoundation\Request;
+use App\Entity\User;
+
 
 class Register 
 {
